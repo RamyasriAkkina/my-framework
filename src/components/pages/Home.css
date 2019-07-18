@@ -1,0 +1,126 @@
+.toolbar-height{
+    height:11% !important;
+    background-color: white !important;
+    z-index:20 !important;
+}
+div[class*="col"] {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding:0px 10px;
+    height: 120px;
+    overflow: hidden;
+  }
+  .row:nth-last-child(1) div[class*="col"] {
+      border-bottom: 1px solid #ddd;
+  }
+  .block{
+      padding: 0 !important;
+  }
+.card1{
+    height: 20%;
+    text-align: -webkit-center;
+}
+.card2{
+    height: 40%;
+}
+.card3{
+    height: 40%;
+}
+.card1 p{
+    background-color: blueviolet;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    width: fit-content;
+    padding: 0px 5px;
+}
+.card3 p{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: navy;
+    font-weight: 300;
+    line-height: 1em;
+}
+.card2 img{
+    width: auto;
+    height: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding:0px 10px;
+    margin: 0;
+    height: 100%
+}
+.flex{
+    text-align: center;
+    width: 100%;
+}
+.flex:active{
+    background-color:darkgrey;
+    opacity: 0.8;
+    color: white;
+}
+.flex-div1{
+    height: 60%;
+    margin-top:3px;
+}
+.flex-top{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top:3px;
+}
+
+.top1{
+    width:fit-content;
+}
+.top2{
+    width: 20%;
+    text-align: center !important;
+}
+.top-inner{
+    height: 100%;
+}
+.top-i{
+    font-size: 35px !important;
+}
+.icon{
+    display: flex;
+}
+.icon i{
+    font-size: 24px;
+}
+.inner-p1{
+    margin: 0;
+    font-size: 14px;
+    color: #bbb;
+    text-align: justify;
+}
+.inner-p2{
+    margin: 0;
+    font-size: 20px;
+    font-family:sans-serif;
+}
+
+.toolbar-height i{
+    font-size: 40px;
+    color: #bbb;
+}
+.flex-div2{
+    font-family: sans-serif;
+    color: #bbb;
+    font-size: 12px;
+    height: 40%;
+}
+.titl{
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: navy !important;
+    margin-bottom: 10px !important;
+    font-family: sans-serif;
+}
